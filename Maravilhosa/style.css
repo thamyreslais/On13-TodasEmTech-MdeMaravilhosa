@@ -101,9 +101,63 @@
   
   /* SECAO Maravilhosa */
  .maravilhosa{
-     background-color: #fad8ef;
+     background-color: #fad8e5;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     padding-bottom: 25px;
+ }
+
+ .container__maravilhosa{
+     text-align: center;
+     padding: 0 5%;
+ }
+
+ .maravilhosa__titulo{
+    color: #ea4c89;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+ }
+
+ .maravilhosa__boxBorder{
+     border: 1px solid #462755;
+ }
+
+ .boxBorder__texto{
+     margin: 30px;
+     color: #462755;
+     text-align: center;
+ }
+
+ .container__suaHistoria{
+    display: flex;
+    flex-direction: column;
+    color: #674582;
+    align-items: center;
+    /*margin-left: 08%;
+    margin-right: 08%;*/
+ }
+
+ .suaHistoria__imagem{
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
  }
   
+ .suaHistoria__texto{
+    width: 100%;
+ }
+
+ .suaHistoria__titulo{
+    color: #462755;
+    padding-bottom: 10px;
+ }
+
+ .suaHistoria__paragrafo{
+    padding-bottom: 10px;
+ }
   
   /* AUTORA */
   
